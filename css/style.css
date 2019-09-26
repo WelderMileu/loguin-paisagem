@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import 'roots.css';
+
+*,::before, ::after{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body{
+	background-color: var(--azul);
+	background-image: url("../img/img11.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'calibri', sans-serif;
+}
+
+.container{
+	background-color: var(--branco);
+	width: 60%;
+	height: 350px;
+	margin: 0 auto;
+	display: flex;
+	border-radius:10px;
+	overflow: hidden;
+	opacity: .8;
+}
+
+/* CONTAINER DE INFORMAÇÕES */
+
+.container .info{
+	background-color: var(--verde);
+	color:var(--marronlight);
+	width: 70%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+.container .info .icon i{
+	font-size: 5rem;
+	padding: 30px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px var(--marron);
+}
+
+.container .info .content{
+	width: 80%;
+	margin:0 auto;
+	font-family: 'Playfair Display', sans-serif;
+}
+
+.container .info .content .text{
+	font-size: 1rem;
+}
+
+/* CONTAINER DE LOGUIN */
+
+.container .form{
+	width: 60%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+.container .form .action .title{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-family: 'roboto', sans-serif;
+	margin-bottom: 50px;
+	color: var(--branco);
+	text-shadow: 1px 1px 1px var(--verde);
+}
+
+/* Stilo da labels */
+
+.container .form .action .camp label{
+	font-size: 1rem;
+	color: var(--verdelight);
+	display: none;
+}
+
+/* Stilo dos Inputs */
+.container .form .action .camp .input-group{
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container .form .action .camp .input-group .icons{
+	padding: 6px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	color: var(--azul);
+	position:absolute;
+	transform: translate(5%, -37%);
+}
+
+.container .form .action .camp .input-group .form-control{
+	border:none;
+	border-bottom:1px solid var(--verdelight);
+	background-color: transparent;
+	padding-bottom: 10px;
+	padding-left:30px;
+}
+
+/* Lembrar Senha */
+
+.container .form .action .len span{
+	font-size: .8rem;
+}
+
+/* 	Botao Submit */
+
+.container .form .action .btn{
+	margin-top: 20px;
+	border:none;
+	background-color: var(--verdelight);
+	color: var(--branco);
+	padding:10px 30px;
+	border-radius: 5px;
+	font-size: 1rem;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+
+.container .form .action .btn:hover{
+	opacity: .8;
+}
+
+/* Midias Sociais */
+
+.sociais{
+	position: absolute;
+	transform: translate(50%, 50%);
+	left: 2%;
+	top: 40%;
+}
+
+.sociais ul{
+	list-style: none;
+}
+
+.sociais ul li{
+	display: block;
+	padding: 5px;
+	transition: .5s ease-in-out;
+}
+
+.sociais ul li:hover{
+	transform: scale(1.2);
+}
+
+.sociais ul li:hover a{
+	color: var(--marron);
+}
+
+.sociais ul li:hover a i{
+	border:1px solid var(--marron);
+}
+
+.sociais ul li a{
+	text-decoration: none;
+	color:var(--branco);
+	font-size: 1.5rem;
+}
+
+.sociais ul li a i{
+	border:1px solid var(--branco);
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+
+
+
