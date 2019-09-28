@@ -25,7 +25,7 @@ body{
 .container{
 	background-color: var(--branco);
 	width: 60%;
-	height: 350px;
+	height: 360px;
 	margin: 0 auto;
 	display: flex;
 	border-radius:10px;
@@ -104,6 +104,7 @@ body{
 	color: var(--azul);
 	position:absolute;
 	transform: translate(5%, -37%);
+	transition: all 1s ease-in-out;
 }
 
 .container .form .action .camp .input-group .form-control{
@@ -205,6 +206,26 @@ body{
 .btn-sout:hover{
 	background-color: var(--marron);
 	color:var(--branco);
+}
+
+/* span de alerta ao usuario */
+
+.warning{
+	margin-top: 10px;
+	background-color: var(--vermelhoClaro);
+	text-align: center;
+	padding: 10px 30px;
+	width: 300px;
+	border-radius: 5px;
+	border:1px solid var(--vermelho);
+	color: var(--branco);
+	text-shadow: 1px 1px var(--vermelho); 
+	font-weight: bold;
+	position: absolute;
+	transform: translate(-20%, 100%);
+	transition: all .5s ease-in-out;
+	opacity: 0;
+
 }
 
 @media only screen and (max-width: 600px){
