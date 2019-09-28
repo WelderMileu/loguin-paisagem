@@ -1,6 +1,7 @@
 (function(){
 	const $ = (e) =>  document.querySelector(e);
 
+	// USAR O CLASSLIST.ADD PARA INSERIR OS STILOS
 
 	$("#submit").addEventListener("click", (event) => {
 		if($("#user").value == "" || $("#pass").value == ""){
