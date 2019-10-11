@@ -231,7 +231,7 @@ body{
 @media only screen and (max-width: 600px){
 	.container{
 		width: 60%;
-		margin-top:-310px;
+		margin-top:-230px;
 		height: 380px;
 		text-align: center;
 	}
@@ -249,6 +249,7 @@ body{
 		border-radius: 5px;
 		background-color: transparent;
 	}
+
 }
 
 
