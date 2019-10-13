@@ -231,10 +231,11 @@ body{
 @media only screen and (max-width: 600px){
 	.container{
 		width: 60%;
+		--webkit-width:60%;
 		margin-top:-230px !important;
+		--webkit-margin-top:-230px !important;
 		height: 380px;
 		text-align: center;
-		--webkit-margin-top:-230px !important;
 	}
 
 	.container .form{
