@@ -240,6 +240,7 @@ body{
 
 	.container .form{
 		width: 100%;
+		--webkit-width:100%;
 		height: 350px;
 	}
 
